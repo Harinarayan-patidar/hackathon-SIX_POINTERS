@@ -1,0 +1,185 @@
+body{
+    background-image: url('../assets//Manali.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* margin-left: 200px; */
+    overflow-x: hidden;
+  
+  }
+  #container{
+    margin-left: 150px;
+  }
+  .text{
+    color: white;
+    font-size: 90px;
+    margin: 2px;
+    font-family: sans-serif;
+    font-weight: bold;
+    position: relative;
+    top: 130px;
+    left: 80px;
+  }
+  
+  #brandname{
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 3rem;
+  
+  }
+  
+  #mag{
+    /* margin-left: 0; */
+    width: 50px;
+    border-radius: 50%;
+  }
+  #st{
+    color: rgb(227, 219, 227);
+    font-family: sans-serif;
+    position: relative;
+    margin: 2px;
+    top: 120px;
+    left: 90px;
+  }
+  
+  #btn {
+    position: relative;
+    top: 200px;
+    border: none;
+    left: 82px;
+    padding: 10px 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-left: 200px;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+    outline: none;
+  }
+  
+  /* Hover Effect: Revolving Shadow */
+  #btn:hover {
+    animation: shadowRotate 1.5s infinite linear;
+  }
+  
+  /* Active (Click) Effect */
+  #btn:active {
+    transform: scale(0.95);
+    background: linear-gradient(45deg, #ff4b2b, #ff416c);
+  }
+  
+  /* Keyframes for the Revolving Shadow */
+  @keyframes shadowRotate {
+    0% {
+      box-shadow: 0px 0px 10px 0px rgba(255, 65, 108, 0.7);
+    }
+    25% {
+      box-shadow: 2px 0px 2px 0px rgba(255, 75, 43, 0.7);
+    }
+    50% {
+      box-shadow: 0px 2px 3px 0px rgba(255, 65, 108, 0.7);
+    }
+    75% {
+      box-shadow: -2px 0px 2px 0px rgba(255, 75, 43, 0.7);
+    }
+    100% {
+      box-shadow: 0px 0px 2px 0px rgba(255, 65, 108, 0.7);
+    }
+  }
+  
+  
+  #head{
+    display: flex;
+    height: 72px;
+    justify-content: space-around;
+    margin-top: 24px;
+  }
+  a{
+    text-decoration: none;
+    width: 77px;
+    height: 24px;
+  }
+  #logo{
+    top: 15px;
+    width: 76px;
+    height: 42.75px;
+    left: 85px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+  }
+  #nav{
+    position: relative;
+    width: 333px;
+    height: 24px;
+    gap: 2px;
+  }
+  #navin{
+    display: flex;
+    justify-content: space-between;
+    height: 28px;
+    font-family: sans-serif;
+    font-weight: 600;
+    gap: 24px;
+    
+  }
+  .navtext{
+    color: #ffffff;
+    text-decoration: underline;
+    width: fit-content;
+    font-weight: 900;
+  }
+  .navtext:hover{
+    /* transform: translateX(1px); */
+    transform: translateY(1px);
+  }
+  .navtext:active{
+    transform: translateY(-1px);
+  }
+  #login{
+    background-color:hsl(0, 100%, 50%);
+    color: white;
+    padding: 6px 16px 6px 16px;
+    height: 31px;
+    width: 75px;
+    border-radius: 5px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    margin-right: 20px;
+  }
+  
+  #login:hover{
+    background-color:hsl(0, 100%, 5px);
+    box-shadow: 0px 1px 8px hsl(0, 100%, 70%);
+  }
+  #login:active{
+    background-color:hsl(0, 100%, 45%);
+  
+  }
+  #sign{
+    background-color:hsl(0, 0%, 52%);
+    color: rgb(255, 255, 255);
+    padding: 6px 12px 6px 12px;
+    height: 31px;
+    width: 90px;
+    border-radius: 5px;
+    border: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+  }
+  #sign:hover{
+    background-color:hsl(0, 0%, 52%);
+    box-shadow: 0px 0.5px 8px hsl(0, 12%, 64%);
+    
+  }
+  #sign:active{
+    background-color:hsl(0, 0%, 56%);
+  
+  }

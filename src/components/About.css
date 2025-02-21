@@ -1,0 +1,84 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container */
+  #container {
+    width: 100%;
+    height: auto;
+    padding: 50px 20px;
+    /* background-image: url("../assets/kala.jpg");  */
+    background-size: cover; /* Ensures the image covers the container */
+    background-position: center; /* Keeps the image centered */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+  }
+  
+  /* Heading */
+  #head {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+  }
+  
+  /* About Text */
+  #text {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: justify;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Footer Section */
+  #feet {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+    margin-top: 50px;
+    text-align: center;
+  }
+  
+  #ft {
+    font-size: 14px;
+    font-family: 'Arial', sans-serif;
+    color: #ccc;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    #head {
+      font-size: 28px;
+    }
+  
+    #text {
+      font-size: 14px;
+    }
+  
+    #feet {
+      padding: 10px 0;
+    }
+  
+    #ft {
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #head {
+      font-size: 24px;
+    }
+  
+    #text {
+      font-size: 13px;
+    }
+  }
+  
